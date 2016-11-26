@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="#ffffff"
+    android:orientation="vertical"
+    tools:context="com.example.shubhm.supplyit_customer.Address">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Delivery Address"
+        android:textColor="#000000"
+        android:paddingBottom="8dp"
+        android:id="@+id/textView2" />
+
+    <TextView
+        android:paddingTop="10dp"
+        android:paddingLeft="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="#929090"
+        android:text="City" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/mycitytext"
+        android:hint="                                                                              "
+        android:textColorHint="#000000"
+        android:textColor="#000000"
+        android:layout_marginLeft="10dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:background="@android:color/transparent"
+        android:shadowColor="#111111"
+        />
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height= "1dp"
+        android:background="#000000"
+        android:layout_marginLeft="10dp"/>
+
+    <TextView
+        android:paddingTop="10dp"
+        android:paddingLeft="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="#929090"
+        android:text="Area" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/myareatext"
+        android:hint="                                                                              "
+        android:textColorHint="#000000"
+        android:textColor="#000000"
+        android:layout_marginLeft="10dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:shadowColor="#111111"
+        android:background="@android:color/transparent"
+
+        />
+    <View
+
+        android:layout_width="wrap_content"
+        android:layout_height= "1dp"
+        android:background="#000000"
+        android:layout_marginLeft="10dp" />
+    <TextView
+        android:paddingTop="10dp"
+        android:paddingLeft="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="#929090"
+        android:text="Flat/House No." />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/myhouseno"
+        android:hint="                                                                              "
+        android:textColorHint="#000000"
+        android:textColor="#000000"
+        android:layout_marginLeft="10dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:shadowColor="#111111"
+        android:background="@android:color/transparent"
+        />
+    <View
+
+        android:layout_width="wrap_content"
+        android:layout_height= "1dp"
+        android:background="#000000"
+        android:layout_marginLeft="10dp"/>
+    <TextView
+        android:paddingTop="10dp"
+        android:paddingLeft="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="#929090"
+        android:text="Apparent/Locality Name" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/mylocality"
+        android:hint="                                                                              "
+        android:textColorHint="#000000"
+        android:textColor="#000000"
+        android:layout_marginLeft="10dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:shadowColor="#111111"
+        android:background="@android:color/transparent"
+        />
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height= "1dp"
+        android:background="#000000"
+        android:layout_marginLeft="10dp"/>
+    <TextView
+        android:paddingTop="10dp"
+        android:paddingLeft="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="#929090"
+        android:text="PostalCode(optional)" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/mypincode"
+        android:hint="                                                                              "
+        android:textColorHint="#000000"
+        android:textColor="#000000"
+        android:layout_marginLeft="10dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:shadowColor="#111111"
+        android:background="@android:color/transparent"
+        />
+    <View
+
+        android:layout_width="wrap_content"
+        android:layout_height= "1dp"
+        android:background="#000000"
+        android:layout_marginLeft="10dp"/>
+    <TextView
+        android:paddingTop="10dp"
+        android:paddingLeft="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="#929090"
+        android:text="Landmarks(optional)" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/mylandmark"
+        android:hint="                                                                              "
+        android:textColorHint="#000000"
+        android:textColor="#000000"
+        android:layout_marginLeft="10dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:shadowColor="#111111"
+        android:text=""
+        android:background="@android:color/transparent"
+        />
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height= "1dp"
+        android:background="#000000"
+        android:layout_marginLeft="10dp"/>
+
+    <Button
+        android:layout_width="193dp"
+        android:layout_height="50dp"
+        android:id="@+id/setaddress"
+        android:background="@drawable/border2"
+        android:text="Set Address"
+        android:layout_marginLeft="10dp"
+        android:layout_gravity="center"
+        android:layout_marginRight="12dp"
+        android:textColor="#ffffff"
+        android:layout_marginTop="30dp" />
+</LinearLayout>
+
+</ScrollView>
