@@ -3,4 +3,6 @@
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
+    <color name="back">#ffffff</color>
+    <drawable name="transperent_color">#00000000</drawable>
 </resources>

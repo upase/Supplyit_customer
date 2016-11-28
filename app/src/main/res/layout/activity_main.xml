@@ -7,6 +7,7 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
     tools:context="com.example.shubhm.supplyit_customer.MainActivity">
 
     <Button
@@ -14,6 +15,13 @@
         android:layout_height="wrap_content"
         android:text="Signup"
         android:id="@+id/firstsignup"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Orders"
+        android:id="@+id/Orders" />
+
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -25,5 +33,6 @@
         android:layout_height="wrap_content"
         android:text="Address"
         android:id="@+id/firstaddress"/>
+
 
 </LinearLayout>

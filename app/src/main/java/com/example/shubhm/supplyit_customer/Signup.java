@@ -1,7 +1,7 @@
 package com.example.shubhm.supplyit_customer;
 
-import android.app.Activity;
 import android.os.Bundle;
+import android.app.Activity;
 import android.text.TextUtils;
 import android.view.View;
 import android.widget.Button;
@@ -10,9 +10,11 @@ import android.widget.EditText;
 public class Signup extends Activity {
     EditText nametext,emailtext,phonetext,passwordtext,reenterpasswordtext;
     Button signup;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
         setContentView(R.layout.activity_signup);
         nametext=(EditText) findViewById(R.id.nametext);
         emailtext=(EditText) findViewById(R.id.emailtext);

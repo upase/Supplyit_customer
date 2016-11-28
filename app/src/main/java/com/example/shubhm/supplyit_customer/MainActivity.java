@@ -11,16 +11,16 @@ import java.util.Arrays;
 import java.util.List;
 
 public class MainActivity extends Activity {
-        Button b1,b2,b3;
+        Button b1,b2,b3,b4;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
+//get this running
         b1=(Button) findViewById(R.id.firstsignup);
         b2=(Button) findViewById(R.id.firstlocation);
         b3=(Button) findViewById(R.id.firstaddress);
-
+        b4=(Button) findViewById(R.id.Orders);
         b1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -45,6 +45,13 @@ public class MainActivity extends Activity {
             }
         });
 
+      b4.setOnClickListener(new View.OnClickListener() {
+          @Override
+          public void onClick(View view) {
+              Intent i=new Intent(getApplicationContext(),ExpandableListMain.class);
+              startActivity(i);
+          }
+      });
 
         String string="bashbsh@nansjn@bxhbhba@hxhbhnh";
 
@@ -53,7 +60,7 @@ public class MainActivity extends Activity {
 
         for(String s:list)
         {
-            Toast.makeText(getApplicationContext(),s,Toast.LENGTH_SHORT).show();
+           // Toast.makeText(getApplicationContext(),s,Toast.LENGTH_SHORT).show();
         }
     }
 }

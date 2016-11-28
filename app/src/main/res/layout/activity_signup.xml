@@ -7,7 +7,8 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.example.shubhm.supplyit_customer.Signup"
+    tools:actionBarNavMode="standard"
+    tools:context=".Signup"
     android:background="@drawable/back2"
     android:orientation="vertical">
     <View
@@ -69,7 +70,6 @@
             android:layout_height="wrap_content"
             android:background="@android:color/transparent"
             android:id="@+id/emailtext"
-            android:maxLength="20"
             android:hint="Email                                                                              "
             android:textColorHint="#ffffff"
             android:textColor="#ffffff"
@@ -84,7 +84,8 @@
         android:layout_width="wrap_content"
         android:layout_height= "1dp"
         android:background="#ffffff"
-        android:layout_marginTop="10dp"/>
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="10dp"/>
 
     <LinearLayout
         android:layout_width="wrap_content"
@@ -198,4 +199,5 @@
         android:layout_marginTop="30dp" />
 
 </LinearLayout>
+
 
